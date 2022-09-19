@@ -1,1 +1,2 @@
-Learning Python.
+#!/usr/bin/python3
+hiii Python
