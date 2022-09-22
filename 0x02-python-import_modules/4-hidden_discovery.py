@@ -1,1 +1,10 @@
-‹filename:1:1: E902 FileNotFoundError: [Errno 2] No such file or directory: '‹filename'
+#!/usr/bin/python3
+
+if __name__ == "__main__":
+    """Print all names defined by hidden_4 module."""
+    import hidden_4
+
+    names = dir(hidden_4)
+    for name in names:
+        if name[:2] != "__":
+            print(name)
