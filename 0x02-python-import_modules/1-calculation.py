@@ -1,1 +1,10 @@
-‹filename:1:1: E902 FileNotFoundError: [Errno 2] No such file or directory: '‹filename'
+#!/usr/bin/python3
+if __name__ == "__main__":
+    from calculator_1 import add, sub, mul, div
+
+    a = 10
+    b = 5
+    print('{:d} + {:d} = {:d}'.format(a, b, (add(a, b))))
+    print('{:d} - {:d} = {:d}'.format(a, b, (sub(a, b))))
+    print('{:d} * {:d} = {:d}'.format(a, b, (mul(a, b))))
+    print('{:d} / {:d} = {:d}'.format(a, b, (div(a, b))))
