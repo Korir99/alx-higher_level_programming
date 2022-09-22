@@ -1,1 +1,7 @@
-‹filename:1:1: E902 FileNotFoundError: [Errno 2] No such file or directory: '‹filename'
+#!/usr/bin/python3
+if __name__ == "__main__":
+    from add_0 import add
+
+    a = 1
+    b = 2
+    print('{:d} + {:d} = {:d}'.format(a, b, add(a, b)))
