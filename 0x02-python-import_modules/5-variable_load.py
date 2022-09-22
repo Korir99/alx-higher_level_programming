@@ -1,1 +1,6 @@
-‹filename:1:1: E902 FileNotFoundError: [Errno 2] No such file or directory: '‹filename'
+#!/usr/bin/python3
+
+if __name__ == "__main__":
+    from variable_load_5 import a
+
+    print(a)
